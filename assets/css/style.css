@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .expanded {
@@ -20,8 +21,9 @@ body {
 }
 
 img {
-  width: 100%;
-  overflow: hidden;
+   max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 a {
@@ -1570,4 +1572,5 @@ section.contact-us-page .right-info ul li span {
   text-align: center;
   justify-content: center;
   gap: 50px;
+
 }
