@@ -1567,10 +1567,11 @@ section.contact-us-page .right-info ul li span {
 }
 .foot-info{
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   gap: 50px;
 
 }
+
 
 
