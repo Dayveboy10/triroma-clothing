@@ -21,7 +21,7 @@ body {
 
 img {
    max-width: 100%;
-  overflow: hidden;
+  height:auto; display:block;
 }
 
 a {
@@ -1572,4 +1572,5 @@ section.contact-us-page .right-info ul li span {
   gap: 50px;
 
 }
+
 
