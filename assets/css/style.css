@@ -1571,8 +1571,74 @@ section.contact-us-page .right-info ul li span {
   justify-content: center;
   gap: 20px;
   padding: 0px 50px;
-
 }
+/* card section  */
+.products {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;    /* allows cards to drop below each other on small screens */
+  gap: 20px;
+  justify-content: center;
+}
+
+.card1, .card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10 {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+  flex: 1 1 250px;    /* flexible width, min 250px */
+  max-width: 300px;   /* don’t grow too wide */
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img, 
+.card7 img, 
+.card8 img, 
+.card9 img, 
+.card10 img {
+  width: 100%;        /* always take full card width */
+  height: auto;       /* let image scale naturally */
+  aspect-ratio: 3/4;  /* keeps same ratio (so sizes match) */
+  object-fit: cover;  /* crops if needed */
+  border-radius: 6px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: red;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: darkred;
+  color: white;
+}
+
+
 
 
 
