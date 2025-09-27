@@ -1575,7 +1575,7 @@ section.contact-us-page .right-info ul li span {
 }
 /* card section  */
 .products {
-  background-color:black;
+  background-color:pink;
   margin-top: 0px;
   display: flex;
   justify-content: center;
@@ -1640,6 +1640,7 @@ section.contact-us-page .right-info ul li span {
   background: darkred;
   color: white;
 }
+
 
 
 
