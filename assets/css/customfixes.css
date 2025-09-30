@@ -22,9 +22,9 @@ section.contact-us,
 .page-banner::before {
   content: "";
   position: absolute;
-  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  inset: 0; 
   background: url("../images/fabrics.jpg") center/cover no-repeat;
-  filter: blur(2px);    /* change blur amount here */
+  filter: blur(2px);    
   z-index: -1;     
   pointer-events: none; /* don't block clicks */
 }
@@ -42,4 +42,5 @@ section.contact-us,
 @media (max-width: 991px) {
   .main-banner { padding-top: calc(270px + 60px); } /* adjust for mobile padding if needed */
 }
+
 
