@@ -1008,11 +1008,12 @@ section.interior-design .right-content .accordion-body {
 }
 
 .what-they-say .testimonials {
-  background-image: url(../images/testimonial-bg.png);
+  background-image: url(../images/favitri.jpg);
   background-repeat: no-repeat;
-  background-size: 815px 560px;
+  background-size: cover;
   background-position: center center;
   border-radius: 7.5px;
+  height: 90vh;
 }
 
 @media (min-width: 992px) {
@@ -1640,6 +1641,7 @@ section.contact-us-page .right-info ul li span {
   background: darkred;
   color: white;
 }
+
 
 
 
