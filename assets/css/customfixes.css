@@ -1,50 +1,45 @@
-/* === FIX: Navbar always on top + blurred fabric background behind content === */
 
-/* 1) Force the navbar to be fixed and on top (override earlier rules) */
 .main-navigation,
 nav.main-navigation {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
   width: 100% !important;
-  z-index: 99999 !important; /* very high so nothing sits above it */
+  z-index: 99999 !important; 
 }
 
-/* 2) Ensure sections that use the fabric background sit under the navbar */
 .main-banner,
 .page-banner,
 section.contact-us,
 .what-they-say .testimonials,
 .products {
   position: relative;
-  z-index: 0;    /* keep these sections below the navbar */
+  z-index: 0;    
   overflow: hidden;
 }
 
-/* 3) Pseudo element holds the blurred fabric and lives behind its section */
 .main-banner::before,
 .page-banner::before {
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
   background: url("../images/fabrics.jpg") center/cover no-repeat;
-  filter: blur(3px);    /* change blur amount here */
-  z-index: -1;          /* put the blurred layer *behind* the section content */
+  filter: blur(2px);    /* change blur amount here */
+  z-index: -1;     
   pointer-events: none; /* don't block clicks */
 }
 
-/* 4) Make sure header text stays above the blur */
 .main-banner .header-text,
 .page-banner .content {
   position: relative;
   z-index: 1;
 }
 
-/* 5) If any page content is hidden under the newly fixed navbar,
-   add top spacing only where needed (example for pages with banners) */
+
 @media (min-width: 992px) {
   .main-banner { padding-top: calc(170px + 70px); } /* 170px was your original top padding + 70px nav height */
 }
 @media (max-width: 991px) {
   .main-banner { padding-top: calc(270px + 60px); } /* adjust for mobile padding if needed */
 }
+
