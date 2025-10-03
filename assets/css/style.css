@@ -325,6 +325,13 @@ button:focus:not(:focus-visible) {
   padding: 170px 0px 270px 0px;
   text-align: center;}
 
+.main-banner::after{
+    content: "";
+    position: absolute;
+   inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  }
  
 
 
@@ -1641,6 +1648,7 @@ section.contact-us-page .right-info ul li span {
   background: darkred;
   color: white;
 }
+
 
 
 
