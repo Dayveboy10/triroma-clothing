@@ -46,7 +46,7 @@ section.contact-us,
 /* === FIXED TEXT LOGO (DIFFERENT SIDES BY SCREEN SIZE) === */
 .logo {
   position: fixed;
-  top: 15px;
+  top: 8px;
   left: 30px;         /* top-left for large screens */
   font-size: 1.8rem;
   font-weight: bold;
@@ -66,6 +66,7 @@ section.contact-us,
     right: 25px;
   }
 }
+
 
 
 
