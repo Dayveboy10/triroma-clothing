@@ -1583,7 +1583,11 @@ section.contact-us-page .right-info ul li span {
 }
 /* card section  */
 .products {
-  background-color: #C8102E;
+  background: linear-gradient(135deg, rgba(200,16,46,0.9), rgba(200,16,46,0.6));
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px; /* optional for softer edges */
+  padding: 60px 20px;
   margin-top: 0px;
   display: flex;
   justify-content: center;
@@ -1648,6 +1652,7 @@ section.contact-us-page .right-info ul li span {
   background: darkred;
   color: white;
 }
+
 
 
 
