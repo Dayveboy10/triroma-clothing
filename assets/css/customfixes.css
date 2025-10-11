@@ -43,4 +43,29 @@ section.contact-us,
   .main-banner { padding-top: calc(270px + 60px); } /* adjust for mobile padding if needed */
 }
 
+/* === FIXED TEXT LOGO (DIFFERENT SIDES BY SCREEN SIZE) === */
+.logo {
+  position: fixed;
+  top: 15px;
+  left: 30px;         /* top-left for large screens */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: red;
+  z-index: 10000;
+}
+
+.logo em {
+  color: white;
+  font-style: normal;
+}
+
+/* on small screens, move it to top-right */
+@media (max-width: 768px) {
+  .logo {
+    left: auto;
+    right: 25px;
+  }
+}
+
+
 
