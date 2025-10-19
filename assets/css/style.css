@@ -713,6 +713,10 @@ section.contact-us #map iframe {
   }
 }
 
+.foot{
+	padding-bottom:10px;
+}
+
 footer.no-margin-footer {
   margin-top: 60px;
 }
@@ -1652,6 +1656,7 @@ section.contact-us-page .right-info ul li span {
   background: darkred;
   color: white;
 }
+
 
 
 
