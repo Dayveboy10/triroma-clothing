@@ -617,7 +617,7 @@ section.whats-trending .right-image::after {
 
 section.contact-us {
   margin-top: 60px;
-  padding: 60px 0px;
+  padding: 60px 10px;
   background-image: url(../images/maj-roy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1653,6 +1653,7 @@ section.contact-us-page .right-info ul li span {
   background: darkred;
   color: white;
 }
+
 
 
 
